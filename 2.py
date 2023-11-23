@@ -3,6 +3,7 @@
         return 1
     else:
         return n * factorial(n - 1)
+
 def main():
     try:
         num = int(input("Enter a number: "))
